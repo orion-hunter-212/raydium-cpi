@@ -18,7 +18,7 @@ pub mod create_pool_fee_address {
     #[cfg(not(any(feature = "devnet")))]
     anchor_lang::declare_id!("7YttLkHDoNj9wyDur5pM1ejNaAvT9X4eqaYcHQqtj2G5");
     #[cfg(feature = "devnet")]
-    anchor_lang::declare_id!("3XMrhbv989VxAMi3DErLV9eJht1pHppW5LbKxe9fkEFR");
+    anchor_lang::declare_id!("7YttLkHDoNj9wyDur5pM1ejNaAvT9X4eqaYcHQqtj2G5");
 }
 
 /// openbook program id
