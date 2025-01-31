@@ -9,7 +9,7 @@ use anchor_lang::prelude::*;
 #[cfg(feature = "devnet")]
 declare_id!("DLockwT7X7sxtLmGH9g5kmfcjaBtncdbUmi738m5bvQC");
 #[cfg(not(feature = "devnet"))]
-declare_id!("LockrWmn6K5twhz3y9w1dQERbmgSaRkfnTeTKbpofwE");
+declare_id!("DLockwT7X7sxtLmGH9g5kmfcjaBtncdbUmi738m5bvQC");
 
 pub const LOCK_CLMM_AUTH_SEED: &str = "program_authority_seed";
 pub const LOCK_CP_AUTH_SEED: &str = "lock_cp_authority_seed";
